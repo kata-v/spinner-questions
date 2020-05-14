@@ -30,7 +30,7 @@ export default class Wheel extends React.Component {
       this.setState({ selectedItem });
     } else {
       this.setState({ selectedItem: null });
-      setTimeout(this.selectItem, 500);
+      setTimeout(this.selectItem, 4000);
     }
   }
 
